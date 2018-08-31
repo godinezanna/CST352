@@ -1,0 +1,49 @@
+body {
+    background-color:black;
+    Color:gray;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+header {
+    font-family: 'Indie Flower', cursive;
+    font-size: 42px;
+    color: Red;
+}
+
+nav a {    /*links within "nav" container */
+    Padding: 15px;
+    padding-bottom:4px;
+    font-size: 35px;
+    text-decoration: none;   /* removes underline */
+    color: white;            /* by default, links are blue */
+}
+
+nav a:hover {    /*pseudo class*/
+    border-bottom:5px green solid;
+    font-size: 2em;
+    transition: .9s;    /* transition effect */
+}
+
+#me, #welcomeText {
+    float: left;
+}
+
+#welcomeText {
+    font-size: 25px;
+}
+
+footer {
+    clear: left;
+}
+
+img {
+    border-radius: 50%;
+}
+
+img:hover {
+    width: 30em;
+    transition: .9s;
+}
