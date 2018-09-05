@@ -9,6 +9,6 @@ echo "Hello World Anna Godinez's website";
 
 ?>
 
-<a href="/cst352/Labs/Lab1/index.html">Lab 1</a>
+<a href=".../cst352/Labs/Lab1/index.html">Lab 1</a>
 </body>
 </html>
