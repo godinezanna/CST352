@@ -5,8 +5,10 @@
 // Press the 'Run' button on the top to start the web server,
 // then click the URL that is emitted to the Output tab of the console
 
-echo 'Hello Everyone';
+echo "Hello World Anna Godinez's website";
 
 ?>
+
+<a href="index.html">Home</a>
 </body>
 </html>
