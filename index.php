@@ -5,7 +5,7 @@
 // Press the 'Run' button on the top to start the web server,
 // then click the URL that is emitted to the Output tab of the console
 
-echo 'a href="/cst352/Labs/Lab1/index.html">Lab1</a>';
+echo 'Hello Everyone';
 
 ?>
 </body>
