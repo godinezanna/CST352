@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html><body>
 <?php
 // A simple web site in Cloud9 that runs through Apache
@@ -9,3 +10,6 @@ echo 'Hello world from Cloud9!';
 ?>
 </body>
 </html>
+=======
+
+>>>>>>> refs/remotes/origin/master
