@@ -1,0 +1,8 @@
+body {
+    background: green;
+}
+#box {
+    background-color: #99ffcc;
+    width: 100px;
+    height: 100px; 
+}
