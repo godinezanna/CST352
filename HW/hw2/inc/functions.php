@@ -47,7 +47,7 @@ if (isset($_POST["submitbtn"])){
         $winner = 'O';
         print("O wins");
     } else if ($winner == 'n'){
-        $winner = 't';
+        $winner = 'n';
         print("Tied game");
     }
 }
