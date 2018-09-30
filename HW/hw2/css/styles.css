@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
 body {
-    background: green;
+    background-color: black;
+    font-family: 'Baloo Bhaina', cursive;
+    color: white;
 }
 #box {
     background-color: #99ffcc;
     width: 100px;
     height: 100px; 
+}
+img{
+    width: 40%
 }

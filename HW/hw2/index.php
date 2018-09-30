@@ -1,7 +1,7 @@
 <?php
 
 include 'game.php';
-include 'results.php'
+include 'results.php';
 
 ?>
 
