@@ -56,7 +56,7 @@ function displayCards($result){
 			echo "<h2>You have lost</h2>";
 			break;
 		case 3:
-			echo "<h2>A tie</h2>";
+			echo "<h2>A tie...What!!!</h2>";
 			break;
 	}
 	
@@ -95,18 +95,18 @@ function pokerRank($cards, $suits){
 	if( ($cards[0] == $cards[1] && $cards[2] == $cards[3]) ||
 		($cards[0] == $cards[1] && $cards[3] == $cards[4]) ||
 		($cards[1] == $cards[2] && $cards[3] == $cards[4]))
-			$pokerRank = 8;
+		$pokerRank = 8;
 
 	//checking for 3 of a kind.
 	if( ($cards[0] == $cards[1] && $cards[1] == $cards[2]) ||
 		($cards[1] == $cards[2] && $cards[2] == $cards[3]) ||
 		($cards[2] == $cards[3] && $cards[3] == $cards[4]))
-			$pokerRank = 7;
+		$pokerRank = 7;
 
 	//checking for straight
 	if( ( $cards[0]+1 == $cards[1] && $cards[1]+1 == $cards[2] && $cards[2]+1 == $cards[3] && $cards[3]+1 == $cards[4]) ||
 		($cards[4] == "14" && $cards[0] == "2" && $cards[1] == "3" && $cards[2] == "4" && $cards[3] == "5") )
-			$pokerRank = 6;	
+		$pokerRank = 6;	
 
 	//checking for a flush
 	if($suits[0] == $suits[1] && $suits[0] == $suits[1] && $suits[0] == $suits[2] && $suits[0] == $suits[3] & $suits[0] == $suits[4]){
@@ -131,7 +131,7 @@ function pokerRank($cards, $suits){
 	//checking for four of a kind
 	if( ( $cards[0] == $cards[1] && $cards[1] == $cards[2] && $cards[2] = $cards[3]) ||
 		($cards[1] == $cards[2] && $cards[2] == $cards[3] && $cards[3] == $cards[4]) )
-			$pokerRank = 3;
+		$pokerRank = 3;
 
 	return $pokerRank;
 }

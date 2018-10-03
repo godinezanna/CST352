@@ -9,12 +9,7 @@ include 'inc/functions.php';
     <head>
         <title> Lab 3: Ace Poker </title>
         <style>
-            h1, h2, body {
-                text-align: center;
-            }
-            .ace {
-                border: 2px yellow solid;
-            }
+            @import url("css/styles.css");
         </style>
     </head>
     <body>

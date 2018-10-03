@@ -4,12 +4,20 @@ body {
     background-color: black;
     font-family: 'Baloo Bhaina', cursive;
     color: white;
+    text-align:center;
 }
-#box {
-    background-color: #99ffcc;
-    width: 100px;
-    height: 100px; 
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 52px;
+    color: Red;
 }
 img{
-    width: 40%
+    width: 8%;
+    padding: 5px;
+}
+div{
+    display: inline;
+}
+h2{
+    color: yellow;
 }

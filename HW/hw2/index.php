@@ -1,8 +1,6 @@
 <?php
-
 include 'game.php';
 include 'results.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -19,23 +17,20 @@ include 'results.php';
 			<form name="form" id="form" method="post" action="">
 			<table>
 				<?php
-				echo "Dealer's Cards: ";
-					if($_SESSION['bj_state'] == "game_over"){
+				echo "Dealer Cards: ";
 						for($i=0; $i<5; $i++){
-							echo "<img src='cards/e/". $_SESSION['dealer'] [$i] .".jpg' name='$dealer=$i+1' id='$dealer=$i+1' />";
+							echo "<img src='cards/e/". $_SESSION['dealer'] [$i] .".jpg' name='$dealer_$i+1' id='$dealer_$i+1' />";
 						}
-						}else{
-						for($i=0; $i<5; $i++){
-							echo "<img src='cards/e/". $_SESSION['dealer'] [$i] .".jpg' name='$dealer= $i+1' id='$dealer= $i+1'/>";
-						}
-				}
+						
+				echo "<br>";
 				
-				echo "<br/> <br/>";
-				
-				echo "Player's Cards: ";
+				echo "Player Cards: ";
 						for($i=0; $i<5; $i++){
-							echo "<img src='cards/e/". $_SESSION['player'] [$i] .".jpg' name='$player=$i+1' id='$player=$i+1' />";
+							echo "<img src='cards/e/". $_SESSION['player'] [$i] .".jpg' name='$player_$i+1' id='$player_$i+1' />";
+							echo "<div class='box' id='div_$x+1' name='div_$x+1'><input type='checkbox' name='chk_$x+1' value=''/></div>";
 						}
+						
+				echo "<br>";
 				?>
 			</table>
 				<?php
@@ -45,7 +40,7 @@ include 'results.php';
 			<table>
 				<tr>
 					<td colspan="2">
-						<button name="swap" id="swapc">Swap Selected Cards</button>
+						<button name="swap" id="swap">Swap Selected Cards</button>
 					</td>
 				</tr>
 				<tr>
@@ -53,13 +48,12 @@ include 'results.php';
 						<button name="stay" id="stay">Stay</button>
 					</td>
 				</tr>
-			</table>
-			<table>
 				<tr>
 					<td colspan="2">
 						<button name="new_game" id="new_game">New Game</button>
 					</td>
 				</tr>
 			</table>
+			</form>
 	</body>
 </html>
