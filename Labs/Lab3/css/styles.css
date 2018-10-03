@@ -2,6 +2,7 @@ body{
     background-image: url("https://images4.alphacoders.com/418/thumb-1920-41814.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 h1, h2, body{
     text-align: center;
