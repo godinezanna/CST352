@@ -27,7 +27,7 @@ include 'results.php';
 				echo "Player Cards: ";
 						for($i=0; $i<5; $i++){
 							echo "<img src='cards/e/". $_SESSION['player'] [$i] .".jpg' name='$player_$i+1' id='$player_$i+1' />";
-							echo "<div class='box' id='div_$x+1' name='div_$x+1'><input type='checkbox' name='chk_$x+1' value=''/></div>";
+							echo "<input type='checkbox' name='chk_$x+1' value='chk_'/>";
 						}
 						
 				echo "<br>";
