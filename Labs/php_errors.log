@@ -1,9 +1,0 @@
-[02-Oct-2018 18:11:22 UTC] PHP Warning:  include(api/pixaboyAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/Labs/Lab4/index.php on line 8
-[02-Oct-2018 18:11:22 UTC] PHP Stack trace:
-[02-Oct-2018 18:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab4/index.php:0
-[02-Oct-2018 18:11:22 UTC] PHP Warning:  include(): Failed opening 'api/pixaboyAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/Labs/Lab4/index.php on line 8
-[02-Oct-2018 18:11:22 UTC] PHP Stack trace:
-[02-Oct-2018 18:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab4/index.php:0
-[02-Oct-2018 18:11:22 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst352/Labs/Lab4/index.php on line 21
-[02-Oct-2018 18:11:22 UTC] PHP Stack trace:
-[02-Oct-2018 18:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab4/index.php:0

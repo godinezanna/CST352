@@ -1,6 +1,12 @@
+body{
+    background-image: url("https://images4.alphacoders.com/418/thumb-1920-41814.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 h1, h2, body{
     text-align: center;
+    color: white;
 }
 .ace{
-     border: 2px yellow solid;
+    border: 2px yellow solid;
 }
