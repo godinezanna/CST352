@@ -74,6 +74,10 @@ if (isset($_GET['keyword'])) { //This checks whether the form has been submitted
                 <input type="submit" name="submitBtn" value="Submit"/>
             </form>
             
+            <?php
+            if(isset($keyword) && !empty($keyword)){
+            ?>
+            
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -124,6 +128,10 @@ if (isset($_GET['keyword'])) { //This checks whether the form has been submitted
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+            
+            <?php
+            }//Closing if statment (if isset($keyword))
+            ?>
         
             <h1>You must type a keyword or select a category</h1>
         
