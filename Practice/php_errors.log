@@ -1,0 +1,24 @@
+[04-Oct-2018 18:30:34 UTC] PHP Warning:  Missing argument 1 for displayYears(), called in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 27 and defined in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 3
+[04-Oct-2018 18:30:34 UTC] PHP Stack trace:
+[04-Oct-2018 18:30:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:0
+[04-Oct-2018 18:30:34 UTC] PHP   2. displayYears($startYear = *uninitialized*, $endYear = *uninitialized*) /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:27
+[04-Oct-2018 18:30:34 UTC] PHP Warning:  Missing argument 2 for displayYears(), called in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 27 and defined in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 3
+[04-Oct-2018 18:30:34 UTC] PHP Stack trace:
+[04-Oct-2018 18:30:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:0
+[04-Oct-2018 18:30:34 UTC] PHP   2. displayYears($startYear = *uninitialized*, $endYear = *uninitialized*) /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:27
+[04-Oct-2018 18:39:38 UTC] PHP Warning:  Missing argument 1 for displayYears(), called in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 27 and defined in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 3
+[04-Oct-2018 18:39:38 UTC] PHP Stack trace:
+[04-Oct-2018 18:39:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:0
+[04-Oct-2018 18:39:38 UTC] PHP   2. displayYears($startYear = *uninitialized*, $endYear = *uninitialized*) /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:27
+[04-Oct-2018 18:39:38 UTC] PHP Warning:  Missing argument 2 for displayYears(), called in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 27 and defined in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 3
+[04-Oct-2018 18:39:38 UTC] PHP Stack trace:
+[04-Oct-2018 18:39:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:0
+[04-Oct-2018 18:39:38 UTC] PHP   2. displayYears($startYear = *uninitialized*, $endYear = *uninitialized*) /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:27
+[04-Oct-2018 18:39:44 UTC] PHP Warning:  Missing argument 1 for displayYears(), called in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 4
+[04-Oct-2018 18:39:44 UTC] PHP Stack trace:
+[04-Oct-2018 18:39:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:0
+[04-Oct-2018 18:39:44 UTC] PHP   2. displayYears($startYear = *uninitialized*, $endYear = *uninitialized*) /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:35
+[04-Oct-2018 18:39:44 UTC] PHP Warning:  Missing argument 2 for displayYears(), called in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 35 and defined in /home/ubuntu/workspace/cst352/Practice/zodiac/index.php on line 4
+[04-Oct-2018 18:39:44 UTC] PHP Stack trace:
+[04-Oct-2018 18:39:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:0
+[04-Oct-2018 18:39:44 UTC] PHP   2. displayYears($startYear = *uninitialized*, $endYear = *uninitialized*) /home/ubuntu/workspace/cst352/Practice/zodiac/index.php:35
