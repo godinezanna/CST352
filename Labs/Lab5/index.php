@@ -60,14 +60,15 @@ function displayRandomQuote() {
         </style>
     </head>
     <body>
-
+        
+        <div class="transbox">
         <h1> Random Famous Quote </h1>
 
-        
          <?= displayRandomQuote() ?>
+         </div>
          <br><br>
       
-        <iframe name="authorInfo" frameborder="0" width="1200" height="600"> </iframe>
+        <iframe name="authorInfo" frameborder="0" width="900" height="600"> </iframe>
    
         <!--
         //find out how many records there eare in the quotes table.
