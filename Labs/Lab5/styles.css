@@ -1,0 +1,14 @@
+body{
+    background-image: url("http://www.freepptbackgrounds.net/wp-content/uploads/2014/03/Blue-Bulbs-PPT-Backgrounds.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1, h2, body{
+    color: white;
+    font-size: 200%;
+    text-align: center
+}
+.a:hover{
+    color: red;
+}

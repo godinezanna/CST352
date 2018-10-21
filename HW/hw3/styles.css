@@ -6,7 +6,7 @@ body{
 }
 h1, h2, body{
     color: white;
-    size: 20%;
+    font-size: 200%;
 }
 .error {
     color: #FF0000;

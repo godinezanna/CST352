@@ -17,7 +17,7 @@ function displayAuthorInfo(){
   //print_r($record);
   
   echo "Bio: " . $record['bio'] . "<br>";
-  echo "Day of Birth" . $record['dob'] . "<br>";
+  echo "Day of Birth: " . $record['dob'] . "<br>";
   echo "Day of Dead: ". $record['dod'] . "<br>";
  
 }
@@ -28,6 +28,9 @@ function displayAuthorInfo(){
 <html>
     <head>
         <title> Author Info </title>
+        <style> 
+            @import url("styles.css");
+        </style>
     </head>
     <body>
 
