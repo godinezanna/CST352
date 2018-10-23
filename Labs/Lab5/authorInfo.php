@@ -37,8 +37,6 @@ function displayAuthorInfo(){
         <div class=transbox>
         <h2> Author Info </h2>
 
-        <br>
-
         <?=displayAuthorInfo()?>
         </div>
         
