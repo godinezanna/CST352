@@ -1,8 +1,8 @@
 <?php
 
-function getConnection() {
+function getConnection($dbname) {
     $host = "localhost";  //c9
-    $dbname = "quotes";
+  //$dbname = "quotes";
     $username = "root";
     $password = "";
     

@@ -9,3 +9,43 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst352/Labs/Lab5/index.php(39): displayAllQuotes()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst352/Labs/Lab5/index.php on line 17
+[30-Oct-2018 17:40:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php on line 34
+[30-Oct-2018 17:43:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php on line 34
+[30-Oct-2018 17:43:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php on line 34
+[30-Oct-2018 17:43:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php on line 34
+[30-Oct-2018 17:45:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php on line 34
+[30-Oct-2018 17:45:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php on line 34
+[30-Oct-2018 17:50:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php on line 33
+[30-Oct-2018 17:50:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php on line 33

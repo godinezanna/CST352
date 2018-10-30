@@ -1,0 +1,23 @@
+[25-Oct-2018 17:35:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/midTerm/index.php on line 59
+[25-Oct-2018 17:35:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/midTerm/index.php on line 59
+[25-Oct-2018 17:59:02 UTC] PHP Fatal error:  Call to undefined function countries() in /home/ubuntu/workspace/cst352/midTerm/index.php on line 15
+[25-Oct-2018 17:59:02 UTC] PHP Stack trace:
+[25-Oct-2018 17:59:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/midTerm/index.php:0
+[25-Oct-2018 17:59:55 UTC] PHP Fatal error:  Call to undefined function countries() in /home/ubuntu/workspace/cst352/midTerm/index.php on line 15
+[25-Oct-2018 17:59:55 UTC] PHP Stack trace:
+[25-Oct-2018 17:59:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/midTerm/index.php:0
+[25-Oct-2018 18:00:40 UTC] PHP Fatal error:  Call to undefined function country() in /home/ubuntu/workspace/cst352/midTerm/index.php on line 15
+[25-Oct-2018 18:00:40 UTC] PHP Stack trace:
+[25-Oct-2018 18:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/midTerm/index.php:0
+[25-Oct-2018 18:02:03 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst352/midTerm/index.php on line 16
+[25-Oct-2018 18:02:03 UTC] PHP Stack trace:
+[25-Oct-2018 18:02:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/midTerm/index.php:0
+[25-Oct-2018 18:02:03 UTC] PHP   2. shuffle(*uninitialized*) /home/ubuntu/workspace/cst352/midTerm/index.php:16
+[25-Oct-2018 18:02:22 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst352/midTerm/index.php on line 16
+[25-Oct-2018 18:02:22 UTC] PHP Stack trace:
+[25-Oct-2018 18:02:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/midTerm/index.php:0
+[25-Oct-2018 18:02:22 UTC] PHP   2. shuffle(*uninitialized*) /home/ubuntu/workspace/cst352/midTerm/index.php:16
+[25-Oct-2018 18:03:04 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst352/midTerm/index.php on line 16
+[25-Oct-2018 18:03:04 UTC] PHP Stack trace:
+[25-Oct-2018 18:03:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/midTerm/index.php:0
+[25-Oct-2018 18:03:04 UTC] PHP   2. shuffle(*uninitialized*) /home/ubuntu/workspace/cst352/midTerm/index.php:16
