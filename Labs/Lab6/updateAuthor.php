@@ -15,6 +15,36 @@ function getAuthorInfo() {
     
 }
 
+if (isset($_GET['updateAuthorForm'])) { // User submitted the form
+    
+    $sql = "UPDATE `q_author` 
+             SET  firstName = :firstName,
+                  lastName  = :lastName,
+                  gender    = :gender,
+                  dob       = :dob,
+                  dod       = :dod,
+                  profession= :profession,
+                  country   = :country,
+                  picture   = :picture,
+                  bio       = :bio
+             WHERE authorId = " . $_GET['authorId'];
+    $np = array();
+    $np[":firstName"]  = $_GET['firstName'];
+    $np[":lastName"]   = $_GET['lastName'];
+    $np[":dob"]        = $_GET['dob'];
+    $np[":dod"]        = $_GET['dod'];
+    $np[":profession"] = $_GET['profession'];
+    $np[":country"]    = $_GET['country'];
+    $np[":picture"]    = $_GET['imageUrl'];
+    $np[":bio"]        = $_GET['bio'];
+    $np[":gender"]     = $_GET['gender'];
+    
+    $stmt = $dbConn->prepare($sql);
+    $stmt->execute($np);
+    
+    echo "Author info was updated!";
+}
+
 if (isset($_GET['authorId'])){
     $authorInfo = getAuthorInfo();
     //print_r($authorInfo);
@@ -60,7 +90,7 @@ if (isset($_GET['authorId'])){
             
             Image URL: <input type="text" name="imageUrl" value="<?= $authorInfo['picture'] ?>" size="40"/><br>
             Bio: 
-            <textarea name="bio" cols="50" rows="5"/></textarea>
+            <textarea name="bio" cols="50" rows="5"/><?= $authorInfo['bio'] ?></textarea>
             
             <br>
 

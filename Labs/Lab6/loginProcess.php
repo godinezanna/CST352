@@ -18,16 +18,16 @@ session_start();  //starts or resumes a session
 //This sql prevents SQL INJECTION!!
  $sql = "SELECT * 
          FROM q_admin 
-         WHERE username = :username 
+         WHERE username = :u;
          AND   password = :password ";
-
- $namedParameters = array();
- $namedParameters[":username"] = $username;
+         
+  $namedParameters = array();
+ $namedParameters[":u"] = $username;
  $namedParameters[":password"] = $password;
-
+ 
  //echo $sql;
  $stmt = $dbConn->prepare($sql);
- $stmt->execute();
+ $stmt->execute($namedParameters);
  $record = $stmt->fetch(PDO::FETCH_ASSOC); //we are expecting just one record
  
  //print_r($record);
