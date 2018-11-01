@@ -1,6 +1,13 @@
 <?php
+session_start();
 
-include '../../sqlConnetion.php';
+if (!isset($_SESSION['adminName'])) {
+    
+    header("Location: login.php");
+    
+}
+
+include '../../sqlConnection.php';
 $dbConn = getConnection("quotes");
 
 function getAuthorInfo() {
@@ -13,12 +20,13 @@ function getAuthorInfo() {
     
     return $record;
     
+    
 }
 
 if (isset($_GET['updateAuthorForm'])) { // User submitted the form
     
     $sql = "UPDATE `q_author` 
-             SET  firstName = :firstName,
+            SET   firstName = :firstName,
                   lastName  = :lastName,
                   gender    = :gender,
                   dob       = :dob,
@@ -27,12 +35,12 @@ if (isset($_GET['updateAuthorForm'])) { // User submitted the form
                   country   = :country,
                   picture   = :picture,
                   bio       = :bio
-             WHERE authorId = " . $_GET['authorId'];
+              WHERE authorId = " . $_GET['authorId'];
     $np = array();
-    $np[":firstName"]  = $_GET['firstName'];
-    $np[":lastName"]   = $_GET['lastName'];
-    $np[":dob"]        = $_GET['dob'];
-    $np[":dod"]        = $_GET['dod'];
+    $np[":firstName"] = $_GET['firstName'];
+    $np[":lastName"]  = $_GET['lastName'];
+    $np[":dob"]       = $_GET['dob'];
+    $np[":dod"]       = $_GET['dod'];
     $np[":profession"] = $_GET['profession'];
     $np[":country"]    = $_GET['country'];
     $np[":picture"]    = $_GET['imageUrl'];
@@ -43,15 +51,21 @@ if (isset($_GET['updateAuthorForm'])) { // User submitted the form
     $stmt->execute($np);
     
     echo "Author info was updated!";
+    
 }
 
-if (isset($_GET['authorId'])){
+
+
+if (isset($_GET['authorId'])) {
+    
     $authorInfo = getAuthorInfo();
     //print_r($authorInfo);
+    
+    
 }
 
-?>
 
+?>
 
 <!DOCTYPE html>
 <html>
@@ -63,8 +77,9 @@ if (isset($_GET['authorId'])){
         <h1> Updating Author Info </h1>
         
           <form>
+            <input type="hidden" name="authorId" value="<?= $authorInfo['authorId'] ?>" />
             First Name: <input type="text" name="firstName" value="<?= $authorInfo['firstName'] ?>" /> <br />
-            Last Name: <input type="text" name="lastName"/> <br />
+            Last Name: <input type="text" name="lastName"   value="<?= $authorInfo['lastName'] ?>"/> <br />
             Gender: 
             <input type="radio" name="gender" value="M" id="genderMale"  
             
@@ -83,14 +98,14 @@ if (isset($_GET['authorId'])){
             <input type="radio" name="gender" value="F" id="genderFemale"  <?= ($authorInfo['gender'] == "F")?"checked":"" ?> /> 
                 <label for="genderFemale">Female</label><br>
             
-            Day of birth: <input type="text" name="dob" value="<?= $authorInfo['dob'] ?>"/> <br />
-            Day of death: <input type="text" name="dod" value="<?= $authorInfo['dod'] ?>"/> <br />
-            Country: <input type="text" name="country" value="<?= $authorInfo['country'] ?>"/> <br>
+            Day of birth: <input type="text" name="dob"  value="<?= $authorInfo['dob'] ?>"/> <br />
+            Day of death: <input type="text" name="dod"  value="<?= $authorInfo['dod'] ?>"/> <br />
+            Country: <input type="text" name="country"   value="<?= $authorInfo['country'] ?>"/> <br>
             Profession: <input type="text" name="profession" value="<?= $authorInfo['profession'] ?>"/> <br>
             
             Image URL: <input type="text" name="imageUrl" value="<?= $authorInfo['picture'] ?>" size="40"/><br>
             Bio: 
-            <textarea name="bio" cols="50" rows="5"/><?= $authorInfo['bio'] ?></textarea>
+            <textarea name="bio" cols="50" rows="5"/> <?= $authorInfo['bio'] ?> </textarea>
             
             <br>
 
