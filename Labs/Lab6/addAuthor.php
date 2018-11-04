@@ -45,9 +45,19 @@ if (isset($_GET['addAuthorForm'])) {  //This checks whether the form has been su
 <html>
     <head>
         <title> Admin: Add New Author </title>
+        <style>
+             
+            @import url("styles.css");
+        
+            form {
+                display:inline-block;
+            }
+            
+        </style>
     </head>
     <body>
-
+        
+        <div class="transbox">
         <h1> Adding New Author</h1>
         
         <form>
@@ -71,7 +81,14 @@ if (isset($_GET['addAuthorForm'])) {  //This checks whether the form has been su
             <br>
 
             <input type="submit" value="Add Author" name="addAuthorForm" />
+            
+            <form action="main.php">
+                <input type="submit" name="main" value="Back"/>
+            </form>
+            
         </form>
+        
+        </div>
         
     </body>
 </html>
