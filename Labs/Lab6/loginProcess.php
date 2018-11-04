@@ -21,11 +21,11 @@ session_start();  //starts or resumes a session
          WHERE username = :u;
          AND   password = :password ";
          
-  $namedParameters = array();
+ $namedParameters = array();
  $namedParameters[":u"] = $username;
  $namedParameters[":password"] = $password;
  
- //echo $sql;
+ echo $sql;
  $stmt = $dbConn->prepare($sql);
  $stmt->execute($namedParameters);
  $record = $stmt->fetch(PDO::FETCH_ASSOC); //we are expecting just one record
@@ -33,13 +33,16 @@ session_start();  //starts or resumes a session
  //print_r($record);
  if (empty($record)){
      
-     echo "Error: Wrong Username or Password!!";
+     //echo "Error: Wrong Username or Password!!!";
+     echo "<script> alert('ERROR: Wrong Username or Password!!!'); </script>";
+     echo "<script>setTimeout(\"location.href = 'login.php';\",100);</script>";
+     
      
  } else {
-
      $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
      
      header("location: main.php"); //redirects to another program.
      
  }
+ 
 ?>

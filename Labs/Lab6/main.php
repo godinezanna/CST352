@@ -45,7 +45,9 @@ function displayAllAuthors(){
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
         
         <style>
-            
+             
+            @import url("styles.css");
+        
             form {
                 display:inline-block;
             }
@@ -68,7 +70,8 @@ function displayAllAuthors(){
         
     </head>
     <body>
-
+        
+        <div class="transbox">
         <h1>  Admin Section</h1>
         Welcome <?= $_SESSION['adminName'] ?>
         
@@ -83,7 +86,7 @@ function displayAllAuthors(){
         
         <?=displayAllAuthors()?>
         
-        
+        </div>
         
 
         <!-- Modal -->
