@@ -4,8 +4,8 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-h1{
-    font-size: 150%;
+h1, h2, body{
+    font-size: 200%;
     text-align: center;
 }
 div.transbox {
@@ -15,4 +15,8 @@ div.transbox {
 }
 div.transbox a {
     color: blue;
+}
+iframe{
+    background-color: #ffffff;
+    opacity: 0.6;
 }
