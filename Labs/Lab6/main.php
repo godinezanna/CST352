@@ -71,7 +71,6 @@ function displayAllAuthors(){
     </head>
     <body>
         
-        <div class="transbox">
         <h1> Admin Section </h1>
         <h2>Welcome <?= $_SESSION['adminName'] ?></h2>
         
@@ -86,7 +85,6 @@ function displayAllAuthors(){
         
         <?=displayAllAuthors()?>
         
-        </div>
         
 
         <!-- Modal -->

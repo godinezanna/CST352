@@ -38,7 +38,7 @@ if (isset($_GET['authorId'])) {
     </head>
     <body>
         
-        <h2><?=$authorInfo['firstName']?>  <?=$authorInfo['lastName']?></h2>
+        <h3><?=$authorInfo['firstName']?>  <?=$authorInfo['lastName']?></h3>
         <?=$authorInfo['bio']?><br>
         <img src="<?=$authorInfo['picture']?>" height="100" />
 

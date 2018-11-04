@@ -50,7 +50,7 @@ if (isset($_GET['updateAuthorForm'])) { // User submitted the form
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($np);
     
-    echo "Author info was updated!";
+    echo "<h4>Author info was updated!</h4>";
     
 }
 
@@ -71,6 +71,11 @@ if (isset($_GET['authorId'])) {
 <html>
     <head>
         <title> Update Author </title>
+        <style>
+             
+            @import url("styles.css");
+            
+        </style>
     </head>
     <body>
         
@@ -112,6 +117,9 @@ if (isset($_GET['authorId'])) {
             <input type="submit" value="Update Author" name="updateAuthorForm" />
         </form>
         
+        <form action="main.php">
+            <input type="submit" name="main" value="Back"/>
+        </form>
 
     </body>
 </html>

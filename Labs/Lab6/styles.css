@@ -1,19 +1,20 @@
 body{
-    background-image: url("https://wallpaper-house.com/data/out/8/wallpaper2you_234046.jpg");
+    background-image: url("https://geneticliteracyproject.org/wp-content/uploads/2017/11/thinker.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align-last: left;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 h1, h2{
     font-size: 200%;
     text-align-last: center;
 }
-div.transbox {
-    margin: 50px;
-    background-color: #ffffff;
-    opacity: 0.8;
+h3{
+   color: blue; 
 }
-div.transbox a {
-    color: blue;
+h4{
+    color: red;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

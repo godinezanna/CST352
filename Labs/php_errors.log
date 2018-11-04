@@ -1,0 +1,5 @@
+[04-Nov-2018 03:56:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null' in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php on line 35
