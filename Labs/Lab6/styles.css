@@ -5,8 +5,9 @@ body{
     background-size: cover;
     text-align-last: left;
 }
-h1{
-    font-size: 150%;
+h1, h2{
+    font-size: 200%;
+    text-align-last: center;
 }
 div.transbox {
     margin: 50px;

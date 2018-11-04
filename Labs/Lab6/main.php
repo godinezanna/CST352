@@ -72,8 +72,8 @@ function displayAllAuthors(){
     <body>
         
         <div class="transbox">
-        <h1>  Admin Section</h1>
-        Welcome <?= $_SESSION['adminName'] ?>
+        <h1> Admin Section </h1>
+        <h2>Welcome <?= $_SESSION['adminName'] ?></h2>
         
         <br><hr><br>
         <form action="addAuthor.php">
