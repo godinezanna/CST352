@@ -1,0 +1,19 @@
+div {
+    text-align: center;
+}
+
+h1 {
+    color: #eee;
+    font-family: 'Exo', sans-serif;
+}
+
+canvas { 
+    background: #eee; 
+}
+
+body { 
+    background-image: url("https://i.imgur.com/ZkbssSd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
