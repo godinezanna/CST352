@@ -1,0 +1,38 @@
+body{
+    background-color: #D3D3D3;
+}
+
+h1{ 
+    text-align: center;
+    color: blue;
+}
+
+form{
+    background-color: white;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+#submit{
+    background-color: green;
+    border: none;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+#submit:hover{
+    background-color: #f1f1f1;
+    color: green;
+}
+
+#acc{
+    color: green;
+    text-align: center;
+}

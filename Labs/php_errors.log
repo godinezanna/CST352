@@ -3,3 +3,174 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php(35): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst352/Labs/Lab6/addAuthor.php on line 35
+[29-Nov-2018 19:05:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:05:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:05:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:06:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:06:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:07:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:07:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:09:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:13:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:13:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:22:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:27:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:30:13 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:30:13 UTC] PHP Stack trace:
+[29-Nov-2018 19:30:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:30:13 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:30:13 UTC] PHP Stack trace:
+[29-Nov-2018 19:30:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:30:18 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:30:18 UTC] PHP Stack trace:
+[29-Nov-2018 19:30:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:30:18 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:30:18 UTC] PHP Stack trace:
+[29-Nov-2018 19:30:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:31:42 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:31:42 UTC] PHP Stack trace:
+[29-Nov-2018 19:31:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:31:42 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:31:42 UTC] PHP Stack trace:
+[29-Nov-2018 19:31:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:32:27 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:32:27 UTC] PHP Stack trace:
+[29-Nov-2018 19:32:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:32:27 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:32:27 UTC] PHP Stack trace:
+[29-Nov-2018 19:32:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:33:48 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:33:48 UTC] PHP Stack trace:
+[29-Nov-2018 19:33:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:33:48 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:33:48 UTC] PHP Stack trace:
+[29-Nov-2018 19:33:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:34:01 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:34:01 UTC] PHP Stack trace:
+[29-Nov-2018 19:34:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:34:01 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/Labs/Lab9/index.php on line 26
+[29-Nov-2018 19:34:01 UTC] PHP Stack trace:
+[29-Nov-2018 19:34:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/index.php:0
+[29-Nov-2018 19:35:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:35:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:36:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:36:51 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php on line 2
+[29-Nov-2018 19:36:51 UTC] PHP Stack trace:
+[29-Nov-2018 19:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php:0
+[29-Nov-2018 19:36:51 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php on line 2
+[29-Nov-2018 19:36:51 UTC] PHP Stack trace:
+[29-Nov-2018 19:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php:0
+[29-Nov-2018 19:36:51 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php on line 3
+[29-Nov-2018 19:36:51 UTC] PHP Stack trace:
+[29-Nov-2018 19:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php:0
+[29-Nov-2018 19:37:48 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php on line 2
+[29-Nov-2018 19:37:48 UTC] PHP Stack trace:
+[29-Nov-2018 19:37:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php:0
+[29-Nov-2018 19:37:48 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php on line 2
+[29-Nov-2018 19:37:48 UTC] PHP Stack trace:
+[29-Nov-2018 19:37:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php:0
+[29-Nov-2018 19:37:48 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php on line 3
+[29-Nov-2018 19:37:48 UTC] PHP Stack trace:
+[29-Nov-2018 19:37:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php:0
+[29-Nov-2018 19:40:27 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php on line 2
+[29-Nov-2018 19:40:27 UTC] PHP Stack trace:
+[29-Nov-2018 19:40:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php:0
+[29-Nov-2018 19:40:27 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php on line 2
+[29-Nov-2018 19:40:27 UTC] PHP Stack trace:
+[29-Nov-2018 19:40:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php:0
+[29-Nov-2018 19:40:27 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php on line 3
+[29-Nov-2018 19:40:27 UTC] PHP Stack trace:
+[29-Nov-2018 19:40:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php:0
+[29-Nov-2018 19:40:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:43:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[29-Nov-2018 19:44:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/Labs/Lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
