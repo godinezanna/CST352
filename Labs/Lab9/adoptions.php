@@ -29,7 +29,29 @@ function displayAllPets(){
   <script>
   $(document).ready(function(){
         $('.petLink').click(function(){
-          alert( $(this).attr("id") );
+          //alert( $(this).attr("id") );
+          $('#petInfoModal').modal("show");
+          $.ajax({
+            
+            type: "GET",
+            url: "api/getPetInfo.php",
+            dataType: "json",
+            data: { "id":$(this).attr("id") },
+            success: function(data,status) {
+            //alert(data.description);
+            $("#petName").html(data.name);
+            $("#petDescription").html(data.description);
+            $("#petImg").attr("src", "img/"+data.pictureURL);
+            $("#type").html(data.type);
+            $("#color").html(data.color);
+            $("#breed").html(data.breed);
+            
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+            }
+            
+            });//ajax
         }); 
   });
       
@@ -38,11 +60,39 @@ function displayAllPets(){
     $pets = displayAllPets();
     
     foreach($pets as $pet) {
-        echo "Name: ". "<a href=' ' class='petLink' id='". $pet["id"]. "'>" .$pet["name"]. "</a><br>";
+        echo "Name: ". "<a href='#' class='petLink' id='". $pet["id"]. "'>" .$pet["name"]. "</a><br>";
         echo "Type: " .$pet["type"]. "<br><br>" ;
     }
   ?>
   
+<!-- Modal -->
+<div class="modal fade" id="petInfoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="petName"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="petInfo">
+     <!-- this is an html element -->
+     <img id="petImg" src="" width="150"></img>
+     <span id="petDescription"></span> <br>
+     <span id="type"></span> <br>
+     <span id="breed"></span> <br>
+     <span id="color"></span> <br>
+     
+  </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
    <?php
    include "inc/footer.php";
   ?>
