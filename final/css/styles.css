@@ -32,21 +32,6 @@ h4 {
     padding-top: 2em;
 }
 
-#a {
-    /*background-color: red;*/
-    margin-right: 10px;
-    width: 40%;
-}
-
-#b {
-    margin-right: 10px;
-    width: 40%;
-}
-
-#c {
-    width: 40%;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -71,5 +56,15 @@ form {
 input{
     padding-left: 1em; 
     border-radius: 20px;
+}
+
+.custom-select{
+    width: 30%;
+}
+.my_class{
+    background-color: white;
+}
+#heroInfo{
+    margin-left: 0px;
 }
 

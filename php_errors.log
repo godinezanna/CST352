@@ -21,3 +21,168 @@
 [25-Oct-2018 18:03:04 UTC] PHP Stack trace:
 [25-Oct-2018 18:03:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/midTerm/index.php:0
 [25-Oct-2018 18:03:04 UTC] PHP   2. shuffle(*uninitialized*) /home/ubuntu/workspace/cst352/midTerm/index.php:16
+[13-Dec-2018 07:33:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/catalog.php(3): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:33:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/catalog.php(3): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:33:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/search.php(6): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:36:38 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/catalog.php on line 2
+[13-Dec-2018 07:36:38 UTC] PHP Stack trace:
+[13-Dec-2018 07:36:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:36:38 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/catalog.php on line 2
+[13-Dec-2018 07:36:38 UTC] PHP Stack trace:
+[13-Dec-2018 07:36:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:36:38 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/catalog.php on line 3
+[13-Dec-2018 07:36:38 UTC] PHP Stack trace:
+[13-Dec-2018 07:36:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:38:45 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/catalog.php on line 2
+[13-Dec-2018 07:38:45 UTC] PHP Stack trace:
+[13-Dec-2018 07:38:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:38:45 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/catalog.php on line 2
+[13-Dec-2018 07:38:45 UTC] PHP Stack trace:
+[13-Dec-2018 07:38:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:38:45 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/catalog.php on line 3
+[13-Dec-2018 07:38:45 UTC] PHP Stack trace:
+[13-Dec-2018 07:38:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:41:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/catalog.php(3): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:41:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/catalog.php(3): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:42:31 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/catalog.php on line 2
+[13-Dec-2018 07:42:31 UTC] PHP Stack trace:
+[13-Dec-2018 07:42:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:42:31 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/catalog.php on line 2
+[13-Dec-2018 07:42:31 UTC] PHP Stack trace:
+[13-Dec-2018 07:42:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:42:31 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/catalog.php on line 3
+[13-Dec-2018 07:42:31 UTC] PHP Stack trace:
+[13-Dec-2018 07:42:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:43:17 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/catalog.php on line 2
+[13-Dec-2018 07:43:17 UTC] PHP Stack trace:
+[13-Dec-2018 07:43:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:43:17 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/catalog.php on line 2
+[13-Dec-2018 07:43:17 UTC] PHP Stack trace:
+[13-Dec-2018 07:43:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:43:17 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/catalog.php on line 3
+[13-Dec-2018 07:43:17 UTC] PHP Stack trace:
+[13-Dec-2018 07:43:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 07:43:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/catalog.php(3): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:44:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/catalog.php(3): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:45:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/catalog.php(3): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:47:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/catalog.php(3): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:47:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/search.php(6): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:48:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/search.php(6): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 07:50:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/search.php(6): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 17:45:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/search.php(6): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 17:46:17 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[13-Dec-2018 17:46:17 UTC] PHP Stack trace:
+[13-Dec-2018 17:46:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:46:17 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[13-Dec-2018 17:46:17 UTC] PHP Stack trace:
+[13-Dec-2018 17:46:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:46:17 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 6
+[13-Dec-2018 17:46:17 UTC] PHP Stack trace:
+[13-Dec-2018 17:46:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:47:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroes'' in /home/ubuntu/workspace/cst352/sqlConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/final/catalog.php(3): getConnection('heroes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 18
+[13-Dec-2018 17:47:39 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[13-Dec-2018 17:47:39 UTC] PHP Stack trace:
+[13-Dec-2018 17:47:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:47:39 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[13-Dec-2018 17:47:39 UTC] PHP Stack trace:
+[13-Dec-2018 17:47:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:47:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 6
+[13-Dec-2018 17:47:39 UTC] PHP Stack trace:
+[13-Dec-2018 17:47:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:49:32 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[13-Dec-2018 17:49:32 UTC] PHP Stack trace:
+[13-Dec-2018 17:49:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:49:32 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[13-Dec-2018 17:49:32 UTC] PHP Stack trace:
+[13-Dec-2018 17:49:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:49:32 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 6
+[13-Dec-2018 17:49:32 UTC] PHP Stack trace:
+[13-Dec-2018 17:49:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:49:39 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[13-Dec-2018 17:49:39 UTC] PHP Stack trace:
+[13-Dec-2018 17:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:49:39 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[13-Dec-2018 17:49:39 UTC] PHP Stack trace:
+[13-Dec-2018 17:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:49:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 6
+[13-Dec-2018 17:49:39 UTC] PHP Stack trace:
+[13-Dec-2018 17:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:49:52 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[13-Dec-2018 17:49:52 UTC] PHP Stack trace:
+[13-Dec-2018 17:49:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:49:52 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/search.php on line 3
+[13-Dec-2018 17:49:52 UTC] PHP Stack trace:
+[13-Dec-2018 17:49:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 17:49:52 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 6
+[13-Dec-2018 17:49:52 UTC] PHP Stack trace:
+[13-Dec-2018 17:49:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0

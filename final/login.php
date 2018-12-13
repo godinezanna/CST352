@@ -1,55 +1,16 @@
-<?php
-session_start();
-
-if (!isset($_SESSION['adminName'])) { //validates whether the admin has logged in
-    
-    header("Location: login.php");
-    
-}
-
-include '../../sqlConnection.php';
-$dbConn = getConnection("quotes");
-
-function displayAllAuthors(){
-    global $dbConn;
-    
-    $sql = "SELECT authorId, firstName, lastName, country
-              FROM q_author
-              ORDER BY lastName";
-    
-    $stmt = $dbConn->prepare($sql);
-    $stmt->execute();
-    $authors = $stmt->fetchAll(PDO::FETCH_ASSOC); 
-    
-    foreach ($authors as $author) {
-        
-        echo "<a   class='btn btn-primary' role='button' href='updateAuthor.php?authorId=".$author['authorId']."'>update</a> ";
-        //echo "[<a href='deleteAuthor.php'>delete</a>] ";
-        echo "<form action='deleteAuthor.php'  onsubmit='return confirmDelete()'  >";
-        echo "  <input type='hidden' name='authorId' value='".$author['authorId']."' >";
-        echo "  <button class='btn btn-outline-danger' type='submit'>Delete</button>";
-        echo "</form> ";
-        echo "<a onclick='openModal()' target='authorModal'  href='authorInfo.php?authorId=".$author['authorId']."'> " . $author['lastName'] . "  " . $author['firstName'] . "</a>  ";
-        echo $author['country'] . "<br><br>";
-        
-        
-    }
-}
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
         <title>Login</title>
         <link href="https://fonts.googleapis.com/css?family=Acme|Work+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-       <!-- <link href="css/styles.css" rel="stylesheet" type="text/css" /> -->
+        <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
         
     
     </head>
     <style>
         body {
-             /**background-image: url("img/thunder.jpg");*/
+           background-image: url("img/thunder.jpg");
             text-align: center;
             
             background-size: cover;
@@ -67,9 +28,9 @@ function displayAllAuthors(){
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="search.html">Search</a>
-                  <a class="nav-item nav-link" href="catalog.html">Catalog</a>
-                  <a class="nav-item nav-link active" href="login.html">Login</a>
+                  <a class="nav-item nav-link" href="search.php">Search</a>
+                  <a class="nav-item nav-link" href="catalog.php">Catalog</a>
+                  <a class="nav-item nav-link active" href="login.php">Login</a>
                 </div>
               </div>
             </nav>
@@ -80,7 +41,7 @@ function displayAllAuthors(){
             <h4>Login</h4>
         </div>  
         <div class="login">
-            <form action="loginProcess.php" method="POST">
+            <form action="loginProcess.php" method="post">
                 <p>Username: <input type="text" name="username"></p>  
                 <p>Password: <input type="password" name="password"></p>
                 <input type="submit" id="loginBtn" value="Login" class="btn btn-primary">
