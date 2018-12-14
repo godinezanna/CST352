@@ -36,11 +36,19 @@
                     type: "GET",
                     url: "updateScore.php",
                     dataType: "json",
-                    data: { "email":$("#emailAddress").val() },
+                    data: { "email":$("#emailAddress").val(), 
+                            "score": score},
                     success: function(data,status) {
                        //alert(data.score + " " + data.attempts);
-                       $("#prevScore").html("Your Previous Score was: " + data.score);
-                       $("#totalAttempts").html("total attempts: " + (parseInt(data.attempts) + 1));
+                       if(!data){
+                            $("#prevScore").html("No previous score found.");
+                            $("#totalAttempts").html("total attempts: 1");
+                       }
+                       else{
+                            $("#prevScore").html("Your Previous Score was: " + data.score);
+                            $("#totalAttempts").html("total attempts: " + (parseInt(data.attempts) + 1));  
+                       }
+                       
                     
                     },
                     complete: function(data,status) { //optional, used for debugging purposes
@@ -53,6 +61,9 @@
             
            
         </script>
+        <style>
+            @import url("styles.css");
+        </style>
         <title>quiz</title>
     </head>
     <body>

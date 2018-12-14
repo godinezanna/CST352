@@ -186,3 +186,17 @@ Stack trace:
 [13-Dec-2018 17:49:52 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/search.php on line 6
 [13-Dec-2018 17:49:52 UTC] PHP Stack trace:
 [13-Dec-2018 17:49:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/search.php:0
+[13-Dec-2018 18:29:28 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/final/catalog.php on line 2
+[13-Dec-2018 18:29:28 UTC] PHP Stack trace:
+[13-Dec-2018 18:29:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 18:29:28 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/final/catalog.php on line 2
+[13-Dec-2018 18:29:28 UTC] PHP Stack trace:
+[13-Dec-2018 18:29:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 18:29:28 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/final/catalog.php on line 3
+[13-Dec-2018 18:29:28 UTC] PHP Stack trace:
+[13-Dec-2018 18:29:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/final/catalog.php:0
+[13-Dec-2018 18:50:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst352/final/addHero.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/final/addHero.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/final/addHero.php on line 40
