@@ -1,12 +1,13 @@
 body{
     background-color:black;
-    background-image: url("https://clip2art.com/images/otter-clipart-7.png");
+    background-image: url("https://vignette.wikia.nocookie.net/ajplaywild/images/7/78/Otter_Brown.png/revision/latest?cb=20170811200230");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: 150px center;
     margin-right: 200px;
     color:white;
     margin: 50px;
     font-size: 30px;
+    text-align: center;
 }
 
 #btnSubmit {
@@ -35,3 +36,6 @@ body{
   color: white;
 }
 
+#q1{
+    
+}
